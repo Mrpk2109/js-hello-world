@@ -13,7 +13,7 @@ app.get('/pwrmsii', (req, res) => {
 
 
 app.get('/bew', (req, res) => {
-  return res.send('<h1> UP : ไอหนถุ่ย </h1> <body style = "background-color: #FF1E4"></body>')
+  return res.send('<body style="  background-color: ##d5f4e6  " ></body>,<h1> UP : ไอhaisหนถุ่ย </h1>')
 })
 
 app.get('/ballphantom', (req, res) => {
