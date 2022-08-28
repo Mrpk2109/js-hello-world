@@ -5,7 +5,7 @@ const app = express()
 app.get('/', (req, res) => {
   return res.send('<h1> UP : Computer Engineering XIX </h1> <h2> UP : New NUI Feture </h2>')
 })
-app.get('/', (req, res) => {
+app.get('/bam', (req, res) => {
   return res.send('<h1> UP : Computer Engineering XIX </h1> <h2> UP : New NUI Feture </h2>')
 })
 
