@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/bew', (req, res) => {
-  return res.send('<body style="  background-color: ##d5f4e6  " ></body>,<h1> UP : ไอhaหนถุ่ย </h1>')
+  return res.send('<body style="  background-color: ##d5f4e6  " ></body>,<h1> UP : ไอhaisหนถุ่ย </h1>')
 })
 
 const PORT = process.env.PORT || 3000
