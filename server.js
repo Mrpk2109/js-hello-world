@@ -8,6 +8,9 @@ app.get('/', (req, res) => {
 app.get('/pwrmsii', (req, res) => {
   return res.send('<h1> pwrmsii </h2>')
 })
+app.get('/pwrmsii', (req, res) => {
+  return res.send('<h1> pluem sod </h2>')
+})
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
   console.info('Server is ready at', PORT)
