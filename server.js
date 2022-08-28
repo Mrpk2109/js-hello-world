@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   return res.send('<h1> UP : Computer Engineering XIX </h1>')
 })
 
-app.get('/', (req, res) => {
+app.get('/bew', (req, res) => {
   return res.send('<h1> UP : ไอหนถุ่ย </h1>')
 })
 
